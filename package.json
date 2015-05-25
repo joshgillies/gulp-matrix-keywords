@@ -1,0 +1,34 @@
+{
+  "name": "gulp-matrix-keywords",
+  "version": "1.0.0",
+  "description": "Render Squiz Matrix keywords with this gulp build tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshgillies/gulp-matrix-keywords.git"
+  },
+  "keywords": [
+    "squiz",
+    "matrix",
+    "keywords",
+    "gulp"
+  ],
+  "author": "Josh Gillies <npm@joshgilli.es> (http://joshgilli.es/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshgillies/gulp-matrix-keywords/issues"
+  },
+  "homepage": "https://github.com/joshgillies/gulp-matrix-keywords",
+  "dependencies": {
+    "gulp-util": "^3.0.4",
+    "node-matrix-keywords": "git+ssh://git@github.com:joshgillies/node-matrix-keywords.git",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "standard": "^3.11.0",
+    "tape": "^4.0.0"
+  }
+}
